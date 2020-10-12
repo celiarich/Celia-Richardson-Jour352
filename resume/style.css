@@ -9,7 +9,7 @@ body{
 }
 
 /*name*/
-h1{
+#name{
   font-size:3em;
   text-transform:uppercase;
   text-align: center;
