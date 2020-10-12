@@ -84,3 +84,25 @@ strong{
 li{
   font-size:1em;
 }
+
+.menu{
+  margin:0 auto;
+  padding:0;
+  display: inline;
+}
+
+/*unordered list in education section*/
+#degrees{
+  margin-top: 5px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*unordered list in skills section*/
+#do{
+  margin-top: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
