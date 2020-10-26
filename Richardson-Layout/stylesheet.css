@@ -33,3 +33,11 @@ blockquote{
   font-size: 10px;
   font-color: gray;
 }
+
+img{
+  width:1000px;
+}
+
+#masthead{
+  width:1500px;
+}
