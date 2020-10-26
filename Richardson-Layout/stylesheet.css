@@ -2,3 +2,15 @@
   margin: 0 auto;
   width: 900px;
 }
+
+h1{
+  font-family: Helvetica, sans-serif;
+  font-style:italic;
+  font-size: 2.5em;
+}
+
+#byline{
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
