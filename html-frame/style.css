@@ -1,0 +1,43 @@
+nav{
+  text-align: center;
+  width:100%;
+}
+
+h1{
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Times New Roman", serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h2{
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Times New Roman", serif;
+}
+
+h3{
+  margin-top: 30px;
+  font-size: 45px;
+  font-family: "Times New Roman", serif;
+}
+
+p{
+  font-family: Arial, sans-serif;
+}
+
+img{
+  margin-top: 30px;
+}
+
+.caption{
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.footer{
+  width:100%;
+  text-align: center;
+}
