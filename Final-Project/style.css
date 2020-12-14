@@ -2,9 +2,17 @@
   width:100%;
 }
 
+nav{
+  background-color: #E398A0;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
 h1{
   font-family: "Times New Roman", Georgia, serif;
-  font-size: 3em;
+  font-size: 3.2em;
   text-align: center;
   margin-bottom: 20px;
   font-weight: bold;
@@ -12,18 +20,18 @@ h1{
 
 h2{
   font-family: "Times New Roman", Georgia, serif;
-  font-size: 1.7em;
+  font-size: 1.6em;
   text-align: center;
   margin-bottom: 20px;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 180px;
+  margin-right: 180px;
 }
 
 img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:100%;
+  width:70%;
 }
 
 .caption{
@@ -39,23 +47,25 @@ img{
   text-transform: uppercase;
   font-size: 17px;
   margin-bottom: 20px;
-  margin-left: 250px;
+  margin-left: 230px;
 }
 
 .article-text{
-  font-family:Arial, sans-serif;
-  margin-left: 250px;
-  margin-right: 250px;
+  font-family: Montserrat, Arial, sans-serif;
+  margin-left: 230px;
+  margin-right: 230px;
 }
 
 iframe{
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 70%;
+  margin-left: 180px;
 }
 
 h3{
   font-family: "Times New Roman", Georgia, serif;
-  margin-left: 250px;
+  margin-left: 230px;
   margin-top: 30px;
   font-weight: 700;
 }
