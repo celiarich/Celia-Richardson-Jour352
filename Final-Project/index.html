@@ -7,6 +7,7 @@
   <title>New York's Tourism Crisis</title>
   <meta name="description" content="Basic HTML Frame">
   <meta name="author" content="Celia Richardson">
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -20,30 +21,32 @@
 
 <body>
   <div class="container">
+  <div class="row">
+    <div class="col-md.12">
 
     <img id="masthead" src="masthead.jpg" alt="D.C. Daily banner">
 
-    <!--NavBar-->
+    <!--Bootstrap NavBar-->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#1074a8">
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
-     </button>
+      </button>
      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-       <ul class="navbar-nav">
+      <ul class="navbar-nav">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           New York's Tourism Crisis</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">An Industry Reeling</a>
-            <a class="dropdown-item" href="#">Desolation in Times Square</a>
-            <a class="dropdown-item" href="#">Hotels & Restaurants Bear the Brunt</a>
-            <a class="dropdown-item" href="#">Road to Recovery May be Local</a>
-            <a class="dropdown-item" href="#">Road to Recovery May be Long</a>
+            <a class="dropdown-item" href="#AIR">An Industry Reeling</a>
+            <a class="dropdown-item" href="#DITS">Desolation in Times Square</a>
+            <a class="dropdown-item" href="#HARBTB">Hotels & Restaurants Bear the Brunt</a>
+            <a class="dropdown-item" href="#local">Road to Recovery May be Local</a>
+            <a class="dropdown-item" href="#long">Road to Recovery May be Long</a>
           </div>
         </li>
       </ul>
-    </div>
-  </nav>
+     </div>
+    </nav>
 
     <br>
     <br>
@@ -72,14 +75,22 @@
 
       <p class="article-text">While that slump has been devastating for popular tourist destinations like Orlando and Los Angeles, nowhere in the United States is the impact more visible than in New York City, which drew more than 13.5 million international visitors last year. New York City has been for years the most popular big-city destination in the United States.</p>
 
+      <img src=pictures/jfk-ny.jpg alt="JFK Airport">
+      <p class="caption">Terminal 4 at John F. Kennedy Airport in New York City (Source: Lev Radin for Getty Images)</p>
+
       <p class="article-text">Now citizens from countries across the world — including Britain, China and Brazil, the three most important markets for tourists visiting New York — are banned from entering the country.</p>
 
       <p class="article-text">At the state’s five regional airports in July, international arrivals were down by 93 percent, according to Port Authority data, compared to July 2019. At Kennedy alone, the number of arriving international flights fell 70 percent in six months, to 2,121 in July, down from 7,034 in January. In August, fewer than 400,000 international passengers arrived at Kennedy, down a whopping 89 percent from more than 3.5 million during the same month the previous year.</p>
 
       <p class="article-text">The city’s food and beverage sector has lost nearly 200,000 jobs since March. The occupancy rate for hotels is down to about 40 percent, a decrease from the more than 80 percent in August 2019, according to the hospitality analytics firm STR. Demand for taxis and ride-app services in June was down by 71 percent, according to New York City’s Taxi and Limousine Commission, though lately those numbers have begun to rebound.</p>
 
+      <br>
+
       <!--Loss in Workers by Industry Bar Chart-->
-      <iframe title="Change in Thousands of Workers in NYC by Industry from Sept. 2019 - Sept. 2020" aria-label="Bar Chart" id="datawrapper-chart-Y3VtJ" src="https://datawrapper.dwcdn.net/Y3VtJ/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 70% !important; border: none;" height="419"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();</script>
+      <iframe title="Change in Thousands of Workers in NYC by Industry, Sept. 2019 - Sept. 2020" aria-label="Bar Chart" id="datawrapper-chart-Y3VtJ" src="https://datawrapper.dwcdn.net/Y3VtJ/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 70% !important; border: none;" height="419"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+      </script>
+
+      <br>
 
       <p class="article-text">Jarring scenes from all around the city lay bare the devastating impact of the absence of tourism.</p>
 
@@ -91,7 +102,7 @@
 
       <p class="article-text">“If no tourists come, I have no business,” said Prince Mahamud, who runs a souvenir shop on Canal Street in Chinatown, on a recent weekday. “Souvenirs are for tourists,” he said as he lifted a tiny green plastic figurine of the Statue of Liberty. “No New Yorker is buying this.”</p>
 
-      <h3 class="subheading">An Industry Reeling</h3>
+      <h3 class="subheading" id="AIR">An Industry Reeling</h3>
 
       <p class="article-text">In 2019, New York’s tourism industry marked its tenth consecutive year of growth, bringing in almost $7 billion in state and local taxes and supporting more than 403,000 jobs, according to NYC & Company, the city’s tourism marketing agency.</p>
 
@@ -103,14 +114,19 @@
 
       <p class="article-text">He was not only referring to hotel guests, but to fellow employees, who are still out of work as the hotel remains closed.</p>
 
+      <br>
+
       <!--Unemployment Rate Line Chart-->
-      <iframe title="Unemployment Rate in New York City by Month" aria-label="Interactive line chart" id="datawrapper-chart-FYQsm" src="https://datawrapper.dwcdn.net/FYQsm/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 70% !important; border: none;" height="394"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();</script>
+      <iframe title="Unemployment Rate in New York City by Month" aria-label="Interactive line chart" id="datawrapper-chart-FYQsm" src="https://datawrapper.dwcdn.net/FYQsm/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 70% !important; border: none;" height="394"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+      </script>
+
+      <br>
 
       <p class="article-text">As of August, the comptroller’s office projected a loss of at least $1.5 billion in all taxable tourism sales for 2021. Nationally, the U.S. Travel Association forecasts a 75 percent drop in international travel spending by the end of year, to $39 billion from $155 billion in 2019.</p>
 
       <p class="article-text">“Tourism in the city, especially international tourism, will not return to pre-pandemic levels until there is a feeling that travel is safe, and many stores and restaurants cannot survive a prolonged loss of business,” Mr. Stringer said, adding that “massive federal support” is needed to tackle the tremendous scale of the issue.</p>
 
-      <h3 class="subheading">Desolation in Times Square</h3>
+      <h3 class="subheading" id="DITS">Desolation in Times Square</h3>
 
       <p class="article-text">The impact of the city’s loss is most visible in Times Square, where businesses disproportionately rely on tourists and office workers. The billboards continue to flash and pop, but many of the top attractions and rows of retail shops and restaurants are shuttered. Without the usual swarms of crowds, the bright lights of the neighborhood merely accentuate the emptiness of the space.</p>
 
@@ -142,7 +158,7 @@
 
       <p class="article-text">“I’m making no money,” he continued. “I have three kids to take care of and my wife is not working. I need this work to pick up.”</p>
 
-      <h3 class="subheading">Hotels and Restaurants Bear the Brunt</h3>
+      <h3 class="subheading" id="HARBTB">Hotels and Restaurants Bear the Brunt</h3>
 
       <p class="article-text">The leisure and hospitality industry is the single hardest-hit sector in terms of employment losses, according to state labor department data. Employment in the sector dropped by two-thirds between February and April.</p>
 
@@ -160,10 +176,14 @@
 
       <p class="article-text">“We’re waiting to see if the cold drives people indoors,” Mr. Ingber said. “But as far as the Christmas season goes, I don’t think we’ll see much of a difference.”</p>
 
+      <br>
+
       <!--Borough Map-->
       <iframe title="Thousands of Total Confirmed COVID-19 Cases in NYC by Borough" aria-label="Map" id="datawrapper-chart-dPV4k" src="https://datawrapper.dwcdn.net/dPV4k/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 70% !important; border: none;" height="758"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();</script>
 
-      <h3 class="subheading">Road to Recovery May be Local</h3>
+      <br>
+
+      <h3 class="subheading" id="local">Road to Recovery May be Local</h3>
 
       <p class="article-text">NYC & Company, the city’s travel arm, was forced to lay off 42 percent of its staff, but the agency is now reimagining tourism in the city, with a recently launched initiative to attract local residents and domestic travelers.</p>
 
@@ -190,7 +210,7 @@
 
       <p class="article-text">“The key thing for people to understand is that the travel business is really 83 percent small businesses,” Mr. Dow said. “Even though you’ve got the big names of the airlines, cruise companies and hotel companies, the majority are small business operators, restaurants, shops, tour guides, all people that really can’t afford to hang on very long.”</p>
 
-      <h3 class="subheading">Road to Recovery May be Long</h3>
+      <h3 class="subheading" id="long">Road to Recovery May be Long</h3>
 
       <p class="article-text">In Chinatown, tourists used to explore the bustling streets packed with fish markets, fruit stands, restaurants and local businesses. Gadget shops and souvenir stands line Canal Street, displaying high tech toys and figurines for sale.</p>
 
@@ -203,7 +223,8 @@
       <br>
 
       <img src="pictures/footer.png" alt="D.C. Daily footer">
-
+      </div>
+    </div>
     </div>
 
     <!--JQuery first, then Popper.js, then Bootstrap JS-->
